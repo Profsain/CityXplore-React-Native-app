@@ -1,11 +1,11 @@
-import { View, Text, Image, TextInput } from "react-native";
+import { View, Image, TextInput } from "react-native";
 import React from "react";
 
 const Header = () => {
   return (
     <View className="flex flex-row items-center">
       <Image
-        source={require("./../../assets/citylogo.jpg")}
+        source={require("./../../../assets/citylogo.jpg")}
         className="w-8 h-8 rounded-md"
       />
 
@@ -16,7 +16,7 @@ const Header = () => {
         />
           </View>
           
-          <Image source={require("./../../assets/avatar.jpg")} className="w-8 h-8 rounded-full"/>
+          <Image source={require("./../../../assets/avatar.jpg")} className="w-8 h-8 rounded-full"/>
     </View>
   );
 };
