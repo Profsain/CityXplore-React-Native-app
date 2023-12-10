@@ -1,6 +1,6 @@
 import { SafeAreaView } from 'react-native-safe-area-context'
 import React from 'react'
-import { GoogleMapView, Header } from '../Components/Home'
+import { CategoryList, GoogleMapView, Header } from '../Components/Home'
 
 const Home = () => {
   return (
@@ -9,6 +9,9 @@ const Home = () => {
 
       {/* Google Map View */}
       <GoogleMapView />
+
+      {/* categoryList */}
+      <CategoryList />
     </SafeAreaView>
   )
 }
